@@ -13,6 +13,7 @@
 		9D3E411C2AE95CA600CFB447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3E411A2AE95CA600CFB447 /* Main.storyboard */; };
 		9D3E411E2AE95CA700CFB447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3E411D2AE95CA700CFB447 /* Assets.xcassets */; };
 		9D3E41212AE95CA700CFB447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3E411F2AE95CA700CFB447 /* LaunchScreen.storyboard */; };
+		9D3E41292AE9661700CFB447 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E41282AE9661700CFB447 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9D3E411D2AE95CA700CFB447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D3E41202AE95CA700CFB447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D3E41222AE95CA700CFB447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D3E41282AE9661700CFB447 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9D3E411D2AE95CA700CFB447 /* Assets.xcassets */,
 				9D3E411F2AE95CA700CFB447 /* LaunchScreen.storyboard */,
 				9D3E41222AE95CA700CFB447 /* Info.plist */,
+				9D3E41282AE9661700CFB447 /* UIColor+Extension.swift */,
 			);
 			path = "DI-Part 4-AutoLayoutEventCycle";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				9D3E41192AE95CA600CFB447 /* ViewController.swift in Sources */,
 				9D3E41152AE95CA600CFB447 /* AppDelegate.swift in Sources */,
 				9D3E41172AE95CA600CFB447 /* SceneDelegate.swift in Sources */,
+				9D3E41292AE9661700CFB447 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
