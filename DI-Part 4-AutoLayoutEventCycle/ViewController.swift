@@ -20,18 +20,31 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         setUpCircles()
-        setUpBigCircleLayouts()
         setUpLayouts()
+        setUpBigCircleLayouts()
     }
     
     private func setUpCircles(){
         yellowCircle.layer.cornerRadius = bigCircleRadius * 0.5
         yellowCircle.backgroundColor = UIColor.yellowCircleColor
+        
         purpleCircle.layer.cornerRadius = smallCircleRadius * 0.5
         purpleCircle.backgroundColor = UIColor.purpleCircleColor
         
         redCircle.layer.cornerRadius = smallCircleRadius * 0.5
         redCircle.backgroundColor = UIColor.redCircleColor
+    }
+    private func setUpLayouts() {
+        view.addSubview(yellowCircle)
+        
+        yellowCircle.translatesAutoresizingMaskIntoConstraints = false
+        
+        NSLayoutConstraint.activate([
+            yellowCircle.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            yellowCircle.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            yellowCircle.widthAnchor.constraint(equalToConstant: bigCircleRadius),
+            yellowCircle.heightAnchor.constraint(equalToConstant: bigCircleRadius)
+        ])
     }
     private func setUpBigCircleLayouts(){
         yellowCircle.addSubview(purpleCircle)
@@ -53,17 +66,5 @@ class ViewController: UIViewController {
         ])
         
     }
-    private func setUpLayouts() {
-        view.addSubview(yellowCircle)
-        
-        yellowCircle.translatesAutoresizingMaskIntoConstraints = false
-        
-        NSLayoutConstraint.activate([
-            yellowCircle.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            yellowCircle.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-            yellowCircle.widthAnchor.constraint(equalToConstant: bigCircleRadius),
-            yellowCircle.heightAnchor.constraint(equalToConstant: bigCircleRadius)
-        ])
-    }
+   
 }
-

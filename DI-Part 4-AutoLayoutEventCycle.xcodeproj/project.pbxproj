@@ -26,6 +26,7 @@
 		9D3E41202AE95CA700CFB447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D3E41222AE95CA700CFB447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D3E41282AE9661700CFB447 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		9D3E412A2AE97FCC00CFB447 /* Recap.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Recap.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		9D3E41082AE95CA600CFB447 = {
 			isa = PBXGroup;
 			children = (
+				9D3E412A2AE97FCC00CFB447 /* Recap.md */,
 				9D3E41132AE95CA600CFB447 /* DI-Part 4-AutoLayoutEventCycle */,
 				9D3E41122AE95CA600CFB447 /* Products */,
 			);
